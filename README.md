@@ -26,20 +26,6 @@ PORT=7627
 WWW=./
 ```
 
-Create (or open if it exists) the `/functions/local.settings.json` file. It should contain the following code.
-
-`/functions/local.settings.json`
-
-```json
-{
-  "IsEncrypted": false,
-  "Values": {
-    "AzureWebJobsStorage": "",
-    "FUNCTIONS_WORKER_RUNTIME": "node"
-  }
-}
-```
-
 ## Getting Started
 
 1. Clone this repository
