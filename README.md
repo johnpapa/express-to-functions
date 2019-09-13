@@ -16,7 +16,7 @@ I love Node and Express for creating APIs! These require a server and paying for
 
 ## Prerequisites
 
-1. Make a copy of the `env.example` file named `.env`, in the root of the project. It should contain the following code.
+Make a copy of the `env.example` file named `.env`, in the root of the project. It should contain the following code.
 
 `.env`
 
