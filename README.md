@@ -22,7 +22,7 @@ I love Node and Express for creating APIs! These require a server and paying for
 
 ```
 NODE_ENV=development
-PORT=7627
+PORT=7070
 WWW=./
 ```
 
