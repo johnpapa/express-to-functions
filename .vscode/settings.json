@@ -1,21 +1,21 @@
 {
   "workbench.colorCustomizations": {
-    "activityBar.background": "#3399ff",
+    "activityBar.background": "#63b2ff",
     "activityBar.foreground": "#15202b",
     "activityBar.inactiveForeground": "#15202b99",
-    "activityBarBadge.background": "#bf0060",
+    "activityBarBadge.background": "#df0071",
     "activityBarBadge.foreground": "#e7e7e7",
-    "titleBar.activeBackground": "#3399ff",
-    "titleBar.inactiveBackground": "#3399ff99",
+    "titleBar.activeBackground": "#3099ff",
+    "titleBar.inactiveBackground": "#3099ff99",
     "titleBar.activeForeground": "#15202b",
     "titleBar.inactiveForeground": "#15202b99",
-    "statusBar.background": "#3399ff",
-    "statusBarItem.hoverBackground": "#007fff",
+    "statusBar.background": "#3099ff",
+    "statusBarItem.hoverBackground": "#0080fc",
     "statusBar.foreground": "#15202b",
-    "panel.border": "#3399ff",
-    "sideBar.border": "#3399ff",
-    "editorGroup.border": "#3399ff",
-    "tab.activeBorder": "#3399ff"
+    "panel.border": "#63b2ff",
+    "sideBar.border": "#63b2ff",
+    "editorGroup.border": "#63b2ff",
+    "tab.activeBorder": "#63b2ff"
   },
   "azureFunctions.projectRuntime": "~2",
   "azureFunctions.projectLanguage": "TypeScript",
@@ -26,5 +26,5 @@
     "bin": true
   },
   "debug.internalConsoleOptions": "neverOpen",
-  "peacock.color": "#3399ff"
+  "peacock.color": "#3099ff"
 }
