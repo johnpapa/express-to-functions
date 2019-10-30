@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
-import { Hero } from '../../core';
+import { Hero, InsightsService } from '../../core';
 import { HeroService } from '../hero.service';
+import { IPageViewTelemetry } from '@microsoft/applicationinsights-web';
 
 @Component({
   selector: 'app-heroes',
@@ -15,6 +16,7 @@ export class HeroesComponent implements OnInit {
   showModal = false;
 
   constructor(
+    private insightsService: InsightsService,
     private heroService: HeroService // , private modalService: ModalService
   ) {
     this.heroes$ = heroService.entities$;
@@ -47,9 +49,7 @@ export class HeroesComponent implements OnInit {
   deleteHero() {
     this.closeModal();
     if (this.heroToDelete) {
-      this.heroService
-        .delete(this.heroToDelete.id)
-        .subscribe(() => (this.heroToDelete = null));
+      this.heroService.delete(this.heroToDelete.id).subscribe(() => (this.heroToDelete = null));
     }
     this.clear();
   }
@@ -59,6 +59,14 @@ export class HeroesComponent implements OnInit {
   }
 
   getHeroes() {
+    const tel: IPageViewTelemetry = {
+      name: 'heroes',
+      uri: 'heroes/',
+      properties: { hero: { id: '1', name: 'one', description: 'one desc' } as Hero }
+      // measurements: ,
+      // duration: 10
+    };
+    this.insightsService.trackPageView(tel);
     this.heroService.getAll();
     this.clear();
   }

@@ -29,6 +29,7 @@
     "@fortawesome/fontawesome-free": "^5.10.2",
     "@fortawesome/fontawesome-svg-core": "^1.2.22",
     "@fortawesome/free-solid-svg-icons": "^5.10.2",
+    "@microsoft/applicationinsights-web": "^2.2.4",
     "@ngrx/data": "^8.2.5",
     "@ngrx/effects": "^8.2.5",
     "@ngrx/entity": "^8.2.5",

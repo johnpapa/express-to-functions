@@ -1,9 +1,9 @@
 {
   "workbench.colorCustomizations": {
-    "activityBar.background": "#3399ff",
+    "activityBar.background": "#66b2ff",
     "activityBar.foreground": "#15202b",
     "activityBar.inactiveForeground": "#15202b99",
-    "activityBarBadge.background": "#bf0060",
+    "activityBarBadge.background": "#df006f",
     "activityBarBadge.foreground": "#e7e7e7",
     "titleBar.activeBackground": "#3399ff",
     "titleBar.inactiveBackground": "#3399ff99",
@@ -12,10 +12,10 @@
     "statusBar.background": "#3399ff",
     "statusBarItem.hoverBackground": "#007fff",
     "statusBar.foreground": "#15202b",
-    "panel.border": "#3399ff",
-    "sideBar.border": "#3399ff",
-    "editorGroup.border": "#3399ff",
-    "tab.activeBorder": "#3399ff"
+    "panel.border": "#66b2ff",
+    "sideBar.border": "#66b2ff",
+    "editorGroup.border": "#66b2ff",
+    "tab.activeBorder": "#66b2ff"
   },
   "azureFunctions.projectRuntime": "~2",
   "azureFunctions.projectLanguage": "TypeScript",
