@@ -18,7 +18,7 @@
       "port": 9229
     },
     {
-      "name": "Attach to Node Functions",
+      "name": "Attach to Functions",
       "type": "node",
       "request": "attach",
       "port": 9229,
@@ -28,7 +28,7 @@
   "compounds": [
     {
       "name": "Debug Functions and Angular",
-      "configurations": ["Attach to Node Functions", "Launch Angular"]
+      "configurations": ["Attach to Functions", "Launch Angular"]
     },
     {
       "name": "Debug Express and Angular",
