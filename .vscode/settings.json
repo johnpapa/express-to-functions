@@ -1,6 +1,7 @@
 {
   "workbench.colorCustomizations": {
     "activityBar.background": "#b8384b",
+    "activityBar.activeBackground": "#b8384b",
     "activityBar.activeBorder": "#50c33c",
     "activityBar.foreground": "#e7e7e7",
     "activityBar.inactiveForeground": "#e7e7e799",
@@ -15,8 +16,12 @@
     "statusBar.foreground": "#e7e7e7",
     "panel.border": "#b8384b",
     "sideBar.border": "#b8384b",
-    "editorGroup.border": "#b8384b",
-    "tab.activeBorder": "#b8384b"
+    "editorGroup.border": "#b8384b"
   },
-  "peacock.color": "#912c3b"
+  "peacock.color": "#912c3b",
+  "azureFunctions.deploySubpath": "functions",
+  "azureFunctions.projectLanguage": "TypeScript",
+  "azureFunctions.projectRuntime": "~2",
+  "debug.internalConsoleOptions": "neverOpen",
+  "azureFunctions.preDeployTask": "npm prune"
 }
