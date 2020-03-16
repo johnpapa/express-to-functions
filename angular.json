@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "heroes-angular": {
+    "tourofheroes": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -18,7 +18,7 @@
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "aot": true,
-            "outputPath": "dist/heroes-angular",
+            "outputPath": "dist/tourofheroes",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -71,18 +71,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "heroes-angular:build"
+            "browserTarget": "tourofheroes:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "heroes-angular:build:production"
+              "browserTarget": "tourofheroes:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "heroes-angular:build"
+            "browserTarget": "tourofheroes:build"
           }
         },
         "test": {
@@ -106,7 +106,7 @@
         }
       }
     },
-    "heroes-angular-e2e": {
+    "tourofheroes-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "prefix": "",
@@ -115,11 +115,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "heroes-angular:serve"
+            "devServerTarget": "tourofheroes:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "heroes-angular:serve:production"
+              "devServerTarget": "tourofheroes:serve:production"
             }
           }
         },
@@ -133,5 +133,5 @@
       }
     }
   },
-  "defaultProject": "heroes-angular"
+  "defaultProject": "tourofheroes"
 }
