@@ -12,8 +12,8 @@
     "node:lint": "npm run node:build-ts && eslint \"server/**/*.ts\" --quiet --fix",
     "node:debug": "WWW=./dist/tourofheroes nodemon -r dotenv/config --inspect=9229 server/dist/index.js",
     "node:start": "WWW=./dist/tourofheroes node -r dotenv/config server/dist/index.js",
-    "node-ng:build": "npm run node:build-ts && npm run build",
-    "node-ng:debug": "concurrently \"npm run node:debug\" \"npm run start\""
+    "full-stack:build": "npm run node:build-ts && npm run build",
+    "full-stack:dev": "concurrently \"npm run node:debug\" \"npm run start\""
   },
   "private": true,
   "dependencies": {
