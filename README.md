@@ -41,10 +41,26 @@ WWW=./
    npm install
    ```
 
+## Build and Serve Dev
+
 1. Build the Node Express and the Angular code
 
    ```bash
-   npm run node-ng:build
+   npm run full-stack:build
+   ```
+
+1. Run the app
+
+   ```bash
+   npm run full-stack:dev
+   ```
+
+## Build and Serve Production
+
+1. Build the Node Express and the Angular code
+
+   ```bash
+   npm run full-stack:build
    ```
 
 1. Run the app

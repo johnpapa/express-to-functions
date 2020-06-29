@@ -25,27 +25,27 @@ const data = {
     {
       id: '10',
       name: 'Malcolm',
-      description: 'I don\'t believe there is a power in the verse that can stop Kaylee from being cheerful.'
+      description: `I don't believe there is a power in the verse that can stop Kaylee from being cheerful.`
     },
     {
       id: '20',
       name: 'Kaylee',
-      description: 'No power in the \'verse can stop me.'
+      description: `No power in the 'verse can stop me.`
     },
     {
       id: '30',
       name: 'Hoban',
-      description: 'I don\'t mean to alarm anybody, but I think we\'re being followed.'
+      description: `I don't mean to alarm anybody, but I think we're being followed.`
     },
     {
       id: '40',
       name: 'Zoë',
-      description: 'First rule of battle, little one ... don\'t ever let them know where you are.'
+      description: `First rule of battle, little one ... don't ever let them know where you are.`
     },
     {
       id: '50',
       name: 'Inara',
-      description: 'It wasn\'t entirely a disaster'
+      description: `It wasn't entirely a disaster`
     },
     {
       id: '60',
@@ -65,8 +65,7 @@ const data = {
     {
       id: '90',
       name: 'Jayne',
-      description:
-        'Ten percent of nothin\' is ... let me do the math here ... nothin\' into nothin\' ... carry the nothin\''
+      description: `Ten percent of nothin' is ... let me do the math here ... nothin' into nothin' ... carry the nothin'`
     }
   ]
 };
@@ -84,7 +83,7 @@ const updateHero = hero => {
 };
 
 const deleteHero = id => {
-  data.heroes= data.heroes.filter(h => h.id !== id);
+  data.heroes = data.heroes.filter(h => h.id !== id);
   return true;
 };
 
@@ -113,4 +112,13 @@ const getVillains = () => {
   return data.villains;
 };
 
-export { addHero, updateHero, deleteHero, getHeroes, addVillain, updateVillain, deleteVillain, getVillains };
+export {
+  addHero,
+  updateHero,
+  deleteHero,
+  getHeroes,
+  addVillain,
+  updateVillain,
+  deleteVillain,
+  getVillains
+};
