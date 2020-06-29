@@ -15,7 +15,10 @@
     "panel.border": "#63b2ff",
     "sideBar.border": "#63b2ff",
     "editorGroup.border": "#63b2ff",
-    "tab.activeBorder": "#63b2ff"
+    "activityBar.activeBackground": "#63b2ff",
+    "activityBar.activeBorder": "#df0071",
+    "statusBar.border": "#3099ff",
+    "titleBar.border": "#3099ff"
   },
   "azureFunctions.projectRuntime": "~2",
   "azureFunctions.projectLanguage": "TypeScript",
